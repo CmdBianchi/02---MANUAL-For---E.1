@@ -10,5 +10,6 @@ namespace _02___MANUAL___For {
                 }
             }
         }
+
     }
 }
