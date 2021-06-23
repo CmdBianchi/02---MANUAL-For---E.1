@@ -6,9 +6,11 @@ namespace _02___MANUAL___For {
             Console.Write("Digite o tamanho do FATORIAL: "); int n = int.Parse(Console.ReadLine()); //----> Números de casos
             
             for (int i = 1; i <= n; i++) {
-                if(n % i == 0) {
-                    Console.WriteLine(i);
-                }
+                int frist = i;
+                int second = i * i;
+                int third = i * i * i;
+                Console.WriteLine("-------------");
+                Console.WriteLine($"{frist} {second} {third}");
             }           
         }
     }
